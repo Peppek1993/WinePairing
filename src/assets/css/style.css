@@ -1,0 +1,17 @@
+@tailwind base;
+
+@tailwind components;
+
+.customInput {
+  @apply bg-pink-900 p-1 rounded-md font-hairline mb-2 mx-2 w-32;
+}
+
+.customInput:focus {
+  @apply outline-none;
+}
+
+.componentCard {
+  @apply border p-4 rounded-md text-center flex flex-col items-center justify-between w-full mx-auto;
+}
+
+@tailwind utilities;
