@@ -3,7 +3,7 @@
 @tailwind components;
 
 .customInput {
-  @apply bg-pink-900 p-1 rounded-md font-hairline mb-2 mx-2 w-32;
+  @apply bg-pink-900 p-1 rounded-md font-hairline mb-2 mx-2 w-32 bg-transparent border;
 }
 
 .customInput:focus {

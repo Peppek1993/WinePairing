@@ -97,7 +97,7 @@ export default new Vuex.Store({
       "Zinfandel",
       "Zweigelt",
     ],
-    dishes: ["Steak"],
+    dishes: ["Steak", "Hamburger", "Salad", "Pasta", "Sushi", "Pizza", "Beef"],
   },
   getters: {
     items: (state) => {

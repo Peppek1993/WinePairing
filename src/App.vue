@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="color flex flex-col justify-between h-screen pt-12 pb-2 px-6 font-hairline"
+      class="color flex flex-col justify-between h-screen pt-6 pb-2 px-6 font-hairline"
     >
       <component :is="this.items.activeComponent"></component>
       <footer class="text-sm mx-auto">
@@ -46,5 +46,14 @@ html {
 }
 .color {
   color: #f9dbbd;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
 }
 </style>
