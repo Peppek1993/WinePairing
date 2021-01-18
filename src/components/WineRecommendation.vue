@@ -13,7 +13,7 @@
             {{ wine }}
           </option>
         </select>
-        <div class="flex justify-around w-64">
+        <div class="flex sm:flex-row flex-col sm:justify-around justify-center">
           <input
             type="text"
             placeholder="Max Price ($)"
@@ -46,9 +46,8 @@
           <div
             class="flex flex-col"
             v-for="(match, index) in productMatches"
-            :key="match"
+            :key="index"
           >
-            <h1 class="py-2 px-4">{{ pairingText }}</h1>
             <div class="pt-2 border-t text-sm">
               <h2>{{ productMatches[index].title }}</h2>
               <p>
@@ -69,7 +68,6 @@
           </div>
         </div>
         <div v-else>
-          <h1 class="border-t py-4 px-4">{{ pairingText }}</h1>
           <h1 class="text-xl italic pt-2 border-t">
             Unfortunately we don't have any wines matching your criteria.
           </h1>
