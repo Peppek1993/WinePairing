@@ -23,4 +23,7 @@ Wine Pairing is a quick and fun project made as a REST API practice. It can help
 
 ## Demo
 
+The working demo can be seen here: 
+
+https://peppek1993.github.io/WinePairing/
 
